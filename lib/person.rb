@@ -8,6 +8,7 @@ class Person
 
   # custom setter method
   # lets us put extra lines of code in the method
+  # instead of using attr_writer
   def status=(new_status)
     @status = new_status
 
